@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaDownload, FaArrowDown } from 'react-icons/fa'
-import { HiCode, HiLightBulb, HiRocket } from 'react-icons/hi'
+import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaDownload, FaArrowDown, FaRocket } from 'react-icons/fa'
+import { HiCode, HiLightBulb } from 'react-icons/hi'
 
 const Hero = ({ config }) => {
   const [currentText, setCurrentText] = useState('')
@@ -144,7 +144,7 @@ const Hero = ({ config }) => {
                 className="btn btn-primary inline-flex items-center justify-center space-x-2"
               >
                 <span>Projelerimi Gör</span>
-                <HiRocket className="w-5 h-5" />
+                <FaRocket className="w-5 h-5" />
               </motion.a>
               
               <motion.a
