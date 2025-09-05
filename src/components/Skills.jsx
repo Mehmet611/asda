@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { 
-  FaReact, FaVue, FaJs, FaHtml5, FaCss3, FaSass, FaNodeJs, FaPython,
+  FaReact, FaJs, FaHtml5, FaCss3, FaSass, FaNodeJs, FaPython,
   FaGitAlt, FaDocker, FaAws, FaFigma, FaDatabase, FaServer, FaCode,
-  FaFire, FaBolt, FaRocket, FaShieldAlt, FaTools
+  FaFire, FaBolt, FaShieldAlt, FaTools
 } from 'react-icons/fa'
-import { SiTypescript, SiMongodb, SiPostgresql, SiExpress, SiGraphql, SiTailwindcss, SiVite, SiWebpack } from 'react-icons/si'
+import { SiVuedotjs, SiTypescript, SiMongodb, SiPostgresql, SiExpress, SiGraphql, SiTailwindcss, SiVite, SiWebpack, SiVercel } from 'react-icons/si'
 
 const Skills = ({ config }) => {
   const [activeCategory, setActiveCategory] = useState('frontend')
@@ -17,7 +17,7 @@ const Skills = ({ config }) => {
       color: 'from-blue-500 to-cyan-500',
       skills: [
         { name: 'React', level: 95, icon: FaReact, color: 'text-blue-500' },
-        { name: 'Vue.js', level: 90, icon: FaVue, color: 'text-green-500' },
+        { name: 'Vue.js', level: 90, icon: SiVuedotjs, color: 'text-green-500' },
         { name: 'JavaScript', level: 95, icon: FaJs, color: 'text-yellow-500' },
         { name: 'TypeScript', level: 85, icon: SiTypescript, color: 'text-blue-600' },
         { name: 'HTML5', level: 98, icon: FaHtml5, color: 'text-orange-500' },
@@ -49,7 +49,7 @@ const Skills = ({ config }) => {
         { name: 'Git', level: 90, icon: FaGitAlt, color: 'text-orange-500' },
         { name: 'Docker', level: 75, icon: FaDocker, color: 'text-blue-500' },
         { name: 'AWS', level: 70, icon: FaAws, color: 'text-orange-600' },
-        { name: 'Vercel', level: 85, icon: FaRocket, color: 'text-gray-600' },
+        { name: 'Vercel', level: 85, icon: SiVercel, color: 'text-gray-600' },
         { name: 'Figma', level: 80, icon: FaFigma, color: 'text-pink-500' },
         { name: 'VS Code', level: 95, icon: FaCode, color: 'text-blue-500' },
         { name: 'Webpack', level: 75, icon: SiWebpack, color: 'text-blue-600' },
