@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { FaGithub, FaExternalLinkAlt, FaCode, FaMobile, FaDatabase, FaPalette } from 'react-icons/fa'
+import { FaGithub, FaExternalLinkAlt, FaCode, FaMobile, FaDatabase, FaPalette, FaTimes } from 'react-icons/fa'
 
 const Projects = ({ config }) => {
   const [activeFilter, setActiveFilter] = useState('all')
