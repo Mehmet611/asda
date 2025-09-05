@@ -1,0 +1,192 @@
+
+{
+  "personal_info": {
+    "name": "Mehmet",
+    "title": "Full Stack Developer",
+    "subtitle": "UI/UX Designer & Software Engineer",
+    "description": "Modern web uygulamaları geliştiriyorum ve kullanıcı deneyimini ön planda tutuyorum. React, Node.js ve modern teknolojilerle çalışıyorum.",
+    "email": "mehmet@example.com",
+    "phone": "+90 555 123 45 67",
+    "location": "İstanbul, Türkiye",
+    "avatar": "/avatar.jpg",
+    "resume": "/resume.pdf"
+  },
+  "social_links": {
+    "github": "https://github.com/mehmet",
+    "linkedin": "https://linkedin.com/in/mehmet",
+    "twitter": "https://twitter.com/mehmet",
+    "instagram": "https://instagram.com/mehmet",
+    "dribbble": "https://dribbble.com/mehmet",
+    "behance": "https://behance.net/mehmet"
+  },
+  "github_api_key": "your_github_token_here",
+  "github_username": "mehmet",
+  "skills": {
+    "frontend": [
+      { "name": "React", "level": 95, "icon": "react" },
+      { "name": "Vue.js", "level": 90, "icon": "vue" },
+      { "name": "JavaScript", "level": 95, "icon": "javascript" },
+      { "name": "TypeScript", "level": 85, "icon": "typescript" },
+      { "name": "HTML5", "level": 98, "icon": "html5" },
+      { "name": "CSS3", "level": 95, "icon": "css3" },
+      { "name": "Tailwind CSS", "level": 90, "icon": "tailwind" },
+      { "name": "Sass", "level": 85, "icon": "sass" }
+    ],
+    "backend": [
+      { "name": "Node.js", "level": 90, "icon": "nodejs" },
+      { "name": "Python", "level": 85, "icon": "python" },
+      { "name": "Express", "level": 88, "icon": "express" },
+      { "name": "MongoDB", "level": 80, "icon": "mongodb" },
+      { "name": "PostgreSQL", "level": 75, "icon": "postgresql" },
+      { "name": "Firebase", "level": 85, "icon": "firebase" },
+      { "name": "GraphQL", "level": 70, "icon": "graphql" },
+      { "name": "REST API", "level": 90, "icon": "api" }
+    ],
+    "tools": [
+      { "name": "Git", "level": 90, "icon": "git" },
+      { "name": "Docker", "level": 75, "icon": "docker" },
+      { "name": "AWS", "level": 70, "icon": "aws" },
+      { "name": "Vercel", "level": 85, "icon": "vercel" },
+      { "name": "Figma", "level": 80, "icon": "figma" },
+      { "name": "VS Code", "level": 95, "icon": "vscode" },
+      { "name": "Webpack", "level": 75, "icon": "webpack" },
+      { "name": "Vite", "level": 85, "icon": "vite" }
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Ticaret Platformu",
+      "description": "Modern ve kullanıcı dostu bir e-ticaret platformu. React ve Node.js ile geliştirildi.",
+      "long_description": "Bu proje, modern e-ticaret ihtiyaçlarını karşılamak için geliştirilmiş kapsamlı bir platformdur. Kullanıcı yönetimi, ürün kataloğu, sepet sistemi, ödeme entegrasyonu ve admin paneli içerir.",
+      "image": "/projects/ecommerce.jpg",
+      "technologies": ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
+      "github_url": "https://github.com/mehmet/ecommerce",
+      "live_url": "https://ecommerce-demo.vercel.app",
+      "featured": true,
+      "category": "web"
+    },
+    {
+      "id": 2,
+      "title": "Görev Yönetim Sistemi",
+      "description": "Takım çalışması için geliştirilmiş modern bir görev yönetim uygulaması.",
+      "long_description": "Kanban tarzı görev yönetimi, gerçek zamanlı güncellemeler, dosya paylaşımı ve takım işbirliği özellikleri ile donatılmış kapsamlı bir proje yönetim aracı.",
+      "image": "/projects/taskmanager.jpg",
+      "technologies": ["Vue.js", "Express", "PostgreSQL", "Socket.io", "Vuetify"],
+      "github_url": "https://github.com/mehmet/taskmanager",
+      "live_url": "https://taskmanager-demo.vercel.app",
+      "featured": true,
+      "category": "web"
+    },
+    {
+      "id": 3,
+      "title": "Analitik Dashboard",
+      "description": "Veri görselleştirme ve analiz için geliştirilmiş interaktif dashboard.",
+      "long_description": "Büyük veri setlerini görselleştiren, gerçek zamanlı analizler sunan ve raporlama özellikleri bulunan kapsamlı bir dashboard uygulaması.",
+      "image": "/projects/dashboard.jpg",
+      "technologies": ["React", "D3.js", "Python", "FastAPI", "Chart.js"],
+      "github_url": "https://github.com/mehmet/dashboard",
+      "live_url": "https://dashboard-demo.vercel.app",
+      "featured": true,
+      "category": "data"
+    },
+    {
+      "id": 4,
+      "title": "Mobil Uygulama",
+      "description": "React Native ile geliştirilmiş cross-platform mobil uygulama.",
+      "long_description": "iOS ve Android platformları için geliştirilmiş, modern UI/UX tasarımına sahip mobil uygulama.",
+      "image": "/projects/mobile.jpg",
+      "technologies": ["React Native", "Expo", "Firebase", "Redux"],
+      "github_url": "https://github.com/mehmet/mobile-app",
+      "live_url": "https://apps.apple.com/app/example",
+      "featured": false,
+      "category": "mobile"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "title": "Senior Full Stack Developer",
+      "company": "Tech Company",
+      "location": "İstanbul, Türkiye",
+      "start_date": "2022-01",
+      "end_date": "present",
+      "description": "Modern web uygulamaları geliştirme, takım liderliği ve teknik mimari tasarımı.",
+      "technologies": ["React", "Node.js", "AWS", "Docker"]
+    },
+    {
+      "id": 2,
+      "title": "Frontend Developer",
+      "company": "Startup Inc",
+      "location": "İstanbul, Türkiye",
+      "start_date": "2020-06",
+      "end_date": "2021-12",
+      "description": "Kullanıcı arayüzü geliştirme ve kullanıcı deneyimi optimizasyonu.",
+      "technologies": ["Vue.js", "JavaScript", "CSS3", "Figma"]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "degree": "Bilgisayar Mühendisliği",
+      "school": "İstanbul Teknik Üniversitesi",
+      "location": "İstanbul, Türkiye",
+      "start_date": "2016-09",
+      "end_date": "2020-06",
+      "description": "Yazılım geliştirme ve bilgisayar bilimleri alanında lisans eğitimi."
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "name": "AWS Certified Developer",
+      "issuer": "Amazon Web Services",
+      "date": "2023-03",
+      "credential_id": "AWS-DEV-123456"
+    },
+    {
+      "id": 2,
+      "name": "React Developer Certification",
+      "issuer": "Meta",
+      "date": "2022-11",
+      "credential_id": "META-REACT-789012"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Ahmet Yılmaz",
+      "position": "CTO, TechCorp",
+      "content": "Mehmet ile çalışmak harika bir deneyimdi. Teknik yetkinliği ve problem çözme becerisi gerçekten etkileyici.",
+      "avatar": "/testimonials/ahmet.jpg",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Ayşe Demir",
+      "position": "Product Manager, StartupX",
+      "content": "Projelerimizi zamanında ve kaliteli bir şekilde teslim etti. Kesinlikle tekrar çalışmak isterim.",
+      "avatar": "/testimonials/ayse.jpg",
+      "rating": 5
+    }
+  ],
+  "blog_posts": [
+    {
+      "id": 1,
+      "title": "React 18'de Yeni Özellikler",
+      "excerpt": "React 18'in getirdiği yenilikleri ve nasıl kullanacağımızı öğrenelim.",
+      "content": "React 18 ile birlikte gelen Concurrent Features, Suspense ve diğer yenilikler...",
+      "date": "2023-12-15",
+      "read_time": "5 min",
+      "tags": ["React", "JavaScript", "Frontend"],
+      "image": "/blog/react18.jpg",
+      "slug": "react-18-yeni-ozellikler"
+    }
+  ],
+  "contact": {
+    "email": "mehmet@example.com",
+    "phone": "+90 555 123 45 67",
+    "location": "İstanbul, Türkiye",
+    "form_enabled": true
+  }
+}
